@@ -59,6 +59,11 @@ const cardNumberPattern = {
     },
     {
       mask: "0000 0000 0000 0000",
+      regex: /(^8\d[0-5]\d{0,1}|^27[0-3])\d{0,14}/,
+      cardtype: "RocketStudentCard",
+    },
+    {
+      mask: "0000 0000 0000 0000",
       cardtype: "default",
     },
   ],
